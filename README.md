@@ -4,3 +4,4 @@
 https://banco-apex-portfolio-lucas.netlify.app/
 
 <img src="print2.jpg">
+<img src="print3.jpg">
