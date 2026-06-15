@@ -1,0 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+  
+}
+
+
+
+body {
+  background-color:  #F2F2F2
+}
+
+
+
+.inicio {
+  background: linear-gradient(135deg, #0b0410 5%, #140722 55%, #25063e 80%, #491273 100%);
+  width: 100%;
+  height: 106px;
+  position: fixed;
+  padding: 10px;
+  animation: efeitoRGB 5s ease infinite;
+  background-size: 400% 400%;
+  z-index: 9999;
+ 
+}
+
+
+
+
+.icone {
+  position:absolute;
+  margin: 0 20px 0 0px;
+  margin-top: -10px;
+  margin-left: -10px;
+  opacity: 0;
+  animation: aparecer 1.5s forwards;
+  transform: transLateX(-140px)
+}
+
+
+
+input {
+  margin-left: 310px;
+  position: absolute;
+  font-size: 27px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  outline: none;
+  z-index: 9999;
+  opacity: 0;
+  animation: aparecer 3.6s forwards;
+  transform: transLateY(-140px);
+}
+
+
+
+
+
+.lupa {
+  position: absolute;
+  margin-left: 625px;
+  margin-top: 23px;
+  z-index: 9999;
+  opacity: 0;
+  animation: aparecer 3.6s forwards;
+  transform: transLateY(-140px)
+}
+
+
+.criarConta {
+  color: white;
+  font-size: 25px;
+  border: solid 1px white;
+  border-radius: 13px;
+  padding: 24px;
+  position: absolute;
+  text-decoration: none;
+  margin-left: 765px;
+  margin-top: 5px;
+  opacity: 0;
+  animation: aparecer 1.5s forwards;
+  transform: transLateX(140px);
+  backdrop-filter: blur(100px);
+}
+
+
+
+
+.titulo2 {
+  margin: 0 0 0 385px;
+  color: white;
+  font-size:41px;
+  opacity: 0;
+  animation: aparecer 2.5s forwards;
+  transform: transLateY(-140px)
+}
+
+
+
+.titulo {
+  color:white;
+  font-size: 41px;
+  margin: 0 0 10px 200px;
+  opacity: 0;
+  animation: aparecer 3.8s forwards;
+  transform: transLateY(-140px)
+}
+
+
+
+.subtitulo {
+  font-size: 25px;
+  color: #F2F2F2;
+  margin: 40px 0 2px 390px;
+  font-family: Georgia;
+  opacity: 0;
+  animation: aparecer 4s forwards;
+  
+}
+
+
+
+
+.subtitulo2 {
+  color:  #F2F2F2;
+  font-size: 25px;
+  margin: 0px 0 90px 410px;
+  font-family: Georgia;
+  opacity: 0;
+  animation: aparecer 4s forwards;
+  
+}
+
+
+
+
+main {
+  background-image: url("../fundo.png");
+  background-repeat: no-repeat;
+  background-size: 100% 30vh;
+  margin: 0 0 140px 0;
+  padding: 27px;
+  height: 485px;
+  box-shadow: 0 10px 20px 0 gray;
+  margin-top: 86px;
+  opacity: 0;
+  animation: aparecer 1s forwards;
+  
+}
+
+
+
+.criarConta2 {
+  color: white;
+  backdrop-filter: blur(100px);
+  border: solid 1px white;
+  border-radius: 14px;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 23px;
+  margin: 0 0 20px 537px;
+  box-shadow: 0 0 10px 1px white;
+  opacity: 0;
+  animation: aparecer 6s forwards;
+ 
+}
+
+
+
+
+.tituloDescrisao {
+  font-size: 30px;
+  margin: 5px 0 15px 0;
+  
+}
+
+
+
+
+.subtituloDescrisao {
+  font-size: 23px;
+  color: dimgray
+}
+
+
+
+.t2{
+  font-size: 27px;
+  margin-left: 75px;
+  color: dimgrey;
+  opacity: 0;
+  animation: aparecer 6s forwards;
+  transform: transLateX(-80px)
+}
+
+
+
+
+.t1 {
+  font-size: 37px;
+  margin-left: 75px;
+  opacity: 0;
+  animation: aparecer 6s forwards;
+  transform: transLateX(-40px)
+}
+
+
+
+
+.imgDestaques {
+  position: absolute;
+  border-radius: 10px;
+  margin-left: -5px;
+  margin-top: -4.5px;
+  
+}
+
+
+
+
+.tituloDestaque {
+  margin-left: 260px;
+  font-size: 30px
+}
+
+
+
+
+.subtituloDestaque {
+  margin-left: 260px;
+  font-size: 27px;
+  margin: 2px 0 20px 260px
+}
+
+
+
+.observacoes {
+  display: grid;
+  margin: 60px 70px 180px 70px;
+  grid-template-columns: repeat(3,2fr);
+  border: solid 0.7px gray;
+  border-radius: 30px;
+  opacity: 0;
+  animation: aparecer 8s forwards;
+}
+
+
+
+.descrisao {
+  margin: 35px 30px 45px 10px;
+  text-align: center;
+}
+
+
+
+
+.produtos {
+  margin: 30px;
+  padding: 6px;
+  background-color: white;
+  border-radius: 17px;
+  box-shadow: 0 0 30px 2px gray;
+  background: linear-gradient(45deg, #0b0410 15%, #140722 25%, #25063e 50%, #491273 75%, #7122b3 100%);
+  animation: efeitoRGB 5s ease infinite;
+  background-size: 400% 400%;
+  opacity: 0;
+  animation: aparecer 6s forwards;
+}
+
+
+
+.link {
+  text-decoration: none;
+  color: black
+}
+
+
+
+
+.destaques {
+  margin: 15px 0 5px 40px;
+  color: white
+}
+
+
+
+.caixaDestaques {
+  margin: 25px;
+  padding: 4px;
+  border: solid 0.7px gray;
+  border-radius: 10px;
+  background-color: white;
+  height: 177px;
+  box-shadow: 0 0 10px black
+}
+
+
+
+.pecaJa {
+  text-decoration: none;
+  color: red;
+  font-size: 28px;
+margin-left: 260px
+}
+
+
+
+
+.imgSeta1 {
+  position: absolute;
+  margin-left: 15px
+  
+  
+}
+
+
+
+.imgSeta2 {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 360px
+}
+
+
+
+
+.fim {
+ background: linear-gradient(45deg, #0b0410 15%, #140722 50%, #25063e 75%, #491273 100%);
+  width: 100%;
+  margin:  0;
+  height: 110px;
+  margin-top: 160px;
+  background-size: 400% 400%;
+  animation: efeitoRGB 5s ease infinite;
+  position: fixed;
+  justify-content: space-around;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+
+
+
+
+.imgFinal {
+  text-align: center
+}
+
+
+
+
+.simboloFinal {
+  text-align: center;
+  margin-top: 5px;
+  opacity: 0;
+  animation: aparecer 1.7s forwards;
+  transform: transLateY(140px)
+}
+
+
+
+.fundo {
+  color:white;
+  font-size: 23px
+}
+
+
+
+.creditos {
+  background:linear-gradient(135deg, #0b0410 15%, #140722 50%, #25063e 75%, #491273 100%);;
+  min-width: 100%;
+  height: 460px;
+  position: relative;
+  background-size: 400% 400%;
+  animation: efeitoRGB 5s ease infinite;
+  z-index: 9999;
+  margin: 250px 0 0 0
+}
+
+
+
+
+.acompanhe {
+  font-size: 37px;
+  color: white;
+  margin: 60px 0 0 380px;
+  opacity: 0;
+  animation: aparecer 6s forwards;
+  transform: transLateY(-150px)
+}
+
+
+
+
+.lin {
+  text-align: center;
+  margin-left: 330px;
+  margin-top: 40px;
+  border-radius: 40px;
+  border: solid 2.5px gray;
+  opacity: 0;
+  animation: aparecer 11s forwards;
+  transform: transLateY(140px)
+}
+
+
+
+
+.icone2 {
+  margin-left: 45px;
+  margin-top: 40px;
+  border-radius: 40px;
+  border: solid 2.5px gray;
+  opacity: 0;
+  animation: aparecer 11s forwards;
+  transform: transLateY(140px)
+}
+
+
+
+
+.logoFim {
+  margin-left: 325px;
+  margin-top: 70px;
+  opacity: 0;
+  animation: aparecer 2.5s forwards;
+}
+
+
+
+
+
+
+
+
+@keyframes efeitoRGB {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+  
+}
+
+
+
+
+@keyframes aparecer {
+  
+  to {
+    opacity: 1;
+    transform: transLateY(0%)
+  }
+  
+  
+}
