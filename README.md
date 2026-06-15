@@ -3,4 +3,4 @@
 
 https://banco-apex-portfolio-lucas.netlify.app/
 
-<img src="Screenshot_20260615_154405_Chrome.jpg">
+<img src="print2.jpg">
