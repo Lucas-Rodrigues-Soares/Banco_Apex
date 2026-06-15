@@ -2,3 +2,5 @@
  Projeto de um banco inventado, que mostra a tela inicial, cadastro (Front-end)
 
 https://banco-apex-portfolio-lucas.netlify.app/
+
+<img src="Screenshot_20260615_154405_Chrome.jpg">
